@@ -1,8 +1,8 @@
 # Hi, I'm Rishab 👋
 
-**Full-stack developer — I build production web apps for founders and small teams.**
+**Full-stack developer — I build and ship production web apps end to end.**
 
-Next.js · TypeScript · Node.js · Postgres. Three-plus years taking projects from "here's the idea" to a deployed, working product — auth, database, dashboards, file handling, the boring parts included.
+I work comfortably across both stacks: **Next.js + TypeScript + PostgreSQL/Prisma**, and the **MERN stack** (MongoDB, Express, React, Node). Three-plus years taking projects from "here's the idea" to a deployed, working product — API design, database schema, auth, dashboards, deployment.
 
 📍 Chennai, India (IST) · 🗓️ **Available for freelance work** · 🌐 [rishab.codes](https://rishab.codes) · ✉️ [rishab.codes01@gmail.com](mailto:rishab.codes01@gmail.com)
 
@@ -12,9 +12,10 @@ Next.js · TypeScript · Node.js · Postgres. Three-plus years taking projects f
 
 | | |
 |---|---|
-| **Full product builds** | Idea → deployed app. Auth, database schema, dashboards, admin tooling, deployment. |
+| **Full product builds** | Idea → deployed app. REST APIs, database design, auth, dashboards, admin tooling, deployment. |
+| **Backend & API work** | Node/Express services or Next.js route handlers, relational and document data models, third-party integrations. |
 | **Business & marketing sites** | Fast, responsive, SEO-sane sites — shipped to real client domains, not just staging links. |
-| **Feature work on existing apps** | Dropping into a Next.js/React codebase and shipping the thing that's been sitting in the backlog. |
+| **Feature work on existing apps** | Dropping into a React/Next.js codebase and shipping the thing that's been sitting in the backlog. |
 
 ---
 
@@ -38,6 +39,8 @@ Delivered and live on the client's own domain: product category pages, industrie
 
 A full multi-tenant SaaS: clients, projects, invoicing with PDF export, file uploads, and a read-only client portal. Role-based permissions (`OWNER` / `ADMIN` / `MEMBER`, plus a scoped `CLIENT` role), plan-based usage caps, and a revenue dashboard.
 
+Server-side data layer built on Prisma over PostgreSQL, session auth with NextAuth v5, and access control enforced at both the route and query level.
+
 `Next.js 16` `TypeScript` `Prisma` `PostgreSQL` `NextAuth v5` `Tailwind` `shadcn/ui`
 
 > Demo logins are seeded — sign in as an owner, a team member, or a client to see how permissions differ.
@@ -56,19 +59,21 @@ My portfolio, built with SvelteKit rather than my usual React stack — a delibe
 
 ## Stack
 
-**Core** — TypeScript, JavaScript, React, Next.js (App Router), Svelte/SvelteKit
+**Languages** — TypeScript, JavaScript, Python, Java
 
-**Backend & data** — Node.js, Express, Prisma, PostgreSQL, MySQL, MongoDB, NextAuth/Auth.js, REST APIs
+**Frontend** — React, Next.js (App Router), Svelte/SvelteKit, Tailwind CSS, shadcn/ui, React Hook Form, Zod
 
-**UI** — Tailwind CSS, shadcn/ui, React Hook Form, Zod, Recharts
+**Backend** — Node.js, Express, Next.js route handlers, NextAuth/Auth.js, REST APIs
 
-**Also** — Python, Java, Git, Docker, Vercel, Vite
+**Databases** — PostgreSQL, MongoDB, MySQL, Prisma
+
+**Tooling** — Git, Docker, Vercel, Vite
 
 ---
 
 ## Working together
 
-I'm a good fit if you need someone who can own a build end-to-end rather than wait for tickets. Typical engagements are fixed-scope project work or part-time ongoing development.
+I'm a good fit if you need someone who can own a build end to end rather than wait for tickets — a new product, an internal tool, or picking up a codebase someone else started. Typical engagements are fixed-scope project work or part-time ongoing development.
 
 **How it usually goes:** short call to scope it → written proposal with milestones and a fixed price → weekly deploys you can click through → handover with docs.
 
