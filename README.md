@@ -47,9 +47,9 @@ Server-side data layer built on Prisma over PostgreSQL, session auth with NextAu
 
 ---
 
-### 🔹 [Acoustic Ledger — E-commerce Storefront](https://acoustic-ledger-nine.vercel.app)
+### 🔹 [Acoustic Ledger — E-commerce Storefront](https://github.com/rishab-rishi/acoustic-ledger)
 
-**[Live demo →](https://acoustic-ledger-nine.vercel.app)**
+**[Live demo →](https://acoustic-ledger-nine.vercel.app)** · [source](https://github.com/rishab-rishi/acoustic-ledger)
 
 A complete storefront for studio audio gear: catalog with Postgres full-text search and URL-driven filters, guest and account carts that merge on sign-in, PayPal checkout, and an admin dashboard for products, variants, stock and order fulfilment.
 
