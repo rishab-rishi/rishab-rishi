@@ -47,6 +47,20 @@ Server-side data layer built on Prisma over PostgreSQL, session auth with NextAu
 
 ---
 
+### 🔹 [Acoustic Ledger — E-commerce Storefront](https://acoustic-ledger-nine.vercel.app)
+
+**[Live demo →](https://acoustic-ledger-nine.vercel.app)**
+
+A complete storefront for studio audio gear: catalog with Postgres full-text search and URL-driven filters, guest and account carts that merge on sign-in, PayPal checkout, and an admin dashboard for products, variants, stock and order fulfilment.
+
+The focus is the checkout path done correctly — totals recomputed server-side, idempotent settlement so a capture/webhook race can never double-decrement stock, and order line items snapshotted so catalog edits don't rewrite history. Hardened with rate limiting, security headers, and a Vitest suite covering the money paths.
+
+`Next.js 16` `TypeScript` `Drizzle ORM` `PostgreSQL` `Auth.js v5` `PayPal` `Tailwind` `shadcn/ui` `Vitest`
+
+> Demo store — fictional brand, payments run in the PayPal sandbox. Admin and customer demo logins are seeded.
+
+---
+
 ### 🔹 [rishab.codes](https://rishab.codes) — portfolio
 
 **[Live site →](https://rishab.codes)** · [source](https://github.com/rishab-rishi/portfolio-site)
@@ -65,9 +79,9 @@ My portfolio, built with SvelteKit rather than my usual React stack — a delibe
 
 **Backend** — Node.js, Express, Next.js route handlers, NextAuth/Auth.js, REST APIs
 
-**Databases** — PostgreSQL, MongoDB, MySQL, Prisma
+**Databases** — PostgreSQL, MongoDB, MySQL, Prisma, Drizzle ORM
 
-**Tooling** — Git, Docker, Vercel, Vite
+**Tooling** — Git, Docker, Vercel, Vite, Vitest
 
 ---
 
